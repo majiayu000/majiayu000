@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @majiayu000
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning solidity
+- 👀 I’m interested in **everything!**
+- 🌱 I’m currently learning machine learning
 - 💞️ I’m looking to collaborate on learning
 - 📫 My Email is mylifcc@gmail.com
 
