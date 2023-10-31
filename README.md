@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning machine learning
 - 💞️ I’m looking to collaborate on learning
 - 📫 My Email is mylifcc@gmail.com
+- :book: My blog is https://www.silencestar.com/
 
 <!---
 majiayu000/majiayu000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
