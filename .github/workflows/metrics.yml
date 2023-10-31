@@ -18,6 +18,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
+          plugin_languages_indepth: yes
+          commits_authoring: cc lif, majiayu000, 1835304752@qq.com
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
