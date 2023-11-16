@@ -16,44 +16,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 2.59mb of code in 286 edited files across 118 commits</small>
+                <small>estimation from 305kb of code in 166 edited files across 117 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="438.8721848813163" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="438.8721848813163" y="0" width="16.19755087728375" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="455.0697357586" y="0" width="3.8621945722274678" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="458.93193033082747" y="0" width="1.0680696691725073" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="367.66227409638554" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="367.66227409638554" y="0" width="89.34149096385542" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="457.00376506024094" y="0" width="2.9269578313253013" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.93072289156623" y="0" width="0.06927710843373494" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
-                    <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Jupyter Notebook
-                            </div>
-                            <small>
-                                <div>1.99 MB</div>
-                                <div>95.41%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#dea584" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Rust
-                            </div>
-                            <small>
-                                <div>17.5 kB</div>
-                                <div>0.84%</div>
-                            </small>
-                        </div>
-                    </section>
                     <section>
                         <div class="field language details">
                             <div class="field">
@@ -63,20 +37,46 @@
                                 Python
                             </div>
                             <small>
-                                <div>73.5 kB</div>
-                                <div>3.52%</div>
+                                <div>42.4 kB</div>
+                                <div>79.93%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#00ADD8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Go
+                                RenderScript
                             </div>
                             <small>
-                                <div>4.85 kB</div>
-                                <div>0.23%</div>
+                                <div>338 bytes</div>
+                                <div>0.64%</div>
+                            </small>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#dea584" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Rust
+                            </div>
+                            <small>
+                                <div>10.3 kB</div>
+                                <div>19.42%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Roff
+                            </div>
+                            <small>
+                                <div>8 bytes</div>
+                                <div>0.02%</div>
                             </small>
                         </div>
                     </section>
