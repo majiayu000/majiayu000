@@ -1,35 +1,16 @@
-```
-██╗     ██╗███████╗ ██████╗ ██████╗
-██║     ██║██╔════╝██╔════╝██╔════╝
-██║     ██║█████╗  ██║     ██║     
-██║     ██║██╔══╝  ██║     ██║     
-███████╗██║██║     ╚██████╗╚██████╗
-╚══════╝╚═╝╚═╝      ╚═════╝ ╚═════╝
-```
-
 <div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+lifcc;Rust+Developer;AI+Tools+Builder;Open+Source+Enthusiast)](https://git.io/typing-svg)
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=ff00ff)](https://www.rust-lang.org/)
 [![Go](https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=00ffff)](https://go.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00ffff)](https://www.typescriptlang.org/)
-
-`> Building tools for AI and developer productivity_`
 
 </div>
 
 ---
 
 ### `// RUST_MODULES`
-
-```rust
-let projects = vec![
-    ("sage",       "Code agent in pure Rust"),
-    ("litellm-rs", "AI Gateway with OpenAI-compatible APIs"),
-    ("rnk",        "React-like terminal UI framework"),
-    ("rui",        "GPU-accelerated UI framework"),
-    ("ccstats",    "Claude Code token usage statistics"),
-];
-```
 
 | Project | Description |
 |:--------|:------------|
