@@ -37,6 +37,7 @@
 
 | Project | Description |
 |:--------|:------------|
+| [`quota-menubar-tauri`](https://github.com/majiayu000/quota-menubar-tauri) | Tauri v2 macOS menubar quota monitor for Claude/Codex |
 | [`spaceview`](https://github.com/majiayu000/spaceview) | macOS disk space analyzer with treemap |
 | [`techpulse`](https://github.com/majiayu000/techpulse) | AI/Tech news aggregator |
 | [`codia`](https://github.com/majiayu000/codia) | 3D AI virtual companion with voice |
