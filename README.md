@@ -10,6 +10,24 @@
 
 ---
 
+### `// VERIFIED_LOCAL_PUBLIC_REPOS` `(Updated: 2026-02-15)`
+
+| Repo | Description |
+|:-----|:------------|
+| [`refine`](https://github.com/majiayu000/refine) | 智能知识复用引擎 - 从 AI 对话中提炼知识 |
+| [`CLIProxyAPI`](https://github.com/majiayu000/CLIProxyAPI) | Multi-agent CLI proxy as OpenAI/Gemini/Claude/Codex compatible API service |
+| [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | CLI package manager for Claude Code skills (`sk`) |
+| [`ccstats`](https://github.com/majiayu000/ccstats) | Fast Claude Code token usage statistics CLI |
+| [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | Comprehensive Claude Code skills registry |
+| [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for skills registry |
+| [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for skills registry |
+| [`rnk`](https://github.com/majiayu000/rnk) | React-like terminal UI framework |
+| [`vibeguard`](https://github.com/majiayu000/vibeguard) | AI 辅助开发防幻觉框架（七层防御） |
+
+> Local private repos in these two directories (not listed above): `auto-contributor`, `trendhunter`.
+
+---
+
 ### `// RUST_MODULES`
 
 | Project | Description |
