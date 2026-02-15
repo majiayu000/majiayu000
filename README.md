@@ -41,7 +41,6 @@
 | Project | Description |
 |:--------|:------------|
 | [`refine`](https://github.com/majiayu000/refine) | 智能知识复用引擎 - 从 AI 对话中提炼知识 |
-| [`CLIProxyAPI`](https://github.com/majiayu000/CLIProxyAPI) | Multi-agent CLI proxy as OpenAI/Gemini/Claude/Codex compatible API service |
 | [`quota-menubar-tauri`](https://github.com/majiayu000/quota-menubar-tauri) | Tauri v2 macOS menubar quota monitor for Claude/Codex |
 | [`spaceview`](https://github.com/majiayu000/spaceview) | macOS disk space analyzer with treemap |
 | [`techpulse`](https://github.com/majiayu000/techpulse) | AI/Tech news aggregator |
