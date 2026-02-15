@@ -24,8 +24,6 @@
 | [`rnk`](https://github.com/majiayu000/rnk) | React-like terminal UI framework |
 | [`vibeguard`](https://github.com/majiayu000/vibeguard) | AI 辅助开发防幻觉框架（七层防御） |
 
-> Local private repos in these two directories (not listed above): `auto-contributor`, `trendhunter`.
-
 ---
 
 ### `// RUST_MODULES`
