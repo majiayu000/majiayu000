@@ -32,7 +32,9 @@
 | [`claude-arsenal`](https://github.com/majiayu000/claude-arsenal) | 39+ Claude Code skills & agents |
 | [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Claude skills manager |
 | [`claude-hub`](https://github.com/majiayu000/claude-hub) | Claude hub |
-| [`vibeguard`](https://github.com/majiayu000/vibeguard) | AI 辅助开发防幻觉框架（七层防御） |
+| [`vibeguard`](https://github.com/majiayu000/vibeguard) | Anti-hallucination framework for AI-assisted development |
+| [`remem`](https://github.com/majiayu000/remem) | Persistent memory for Claude Code |
+| [`claude-autopilot`](https://github.com/majiayu000/claude-autopilot) | 24/7 autonomous Claude Code runner |
 
 ---
 
@@ -40,11 +42,12 @@
 
 | Project | Description |
 |:--------|:------------|
-| [`refine`](https://github.com/majiayu000/refine) | 智能知识复用引擎 - 从 AI 对话中提炼知识 |
+| [`refine`](https://github.com/majiayu000/refine) | Smart knowledge reuse engine — extract insights from AI conversations |
 | [`quota-menubar-tauri`](https://github.com/majiayu000/quota-menubar-tauri) | Tauri v2 macOS menubar quota monitor for Claude/Codex |
 | [`spaceview`](https://github.com/majiayu000/spaceview) | macOS disk space analyzer with treemap |
 | [`techpulse`](https://github.com/majiayu000/techpulse) | AI/Tech news aggregator |
 | [`codia`](https://github.com/majiayu000/codia) | 3D AI virtual companion with voice |
+| [`claude-code-anime-sounds`](https://github.com/majiayu000/claude-code-anime-sounds) | Anime-themed sound effects for Claude Code hooks |
 
 ---
 
@@ -52,8 +55,8 @@
 
 | Project | Description |
 |:--------|:------------|
-| [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | 神秘复苏 Roguelike 游戏 `🚧 开发中` |
-| [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | 狼人杀多人游戏 |
+| [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Mysterious Revival Roguelike game `🚧 WIP` |
+| [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | Online multiplayer Werewolf game |
 | [`games-monorepo`](https://github.com/majiayu000/games-monorepo) | Multiplayer games collection |
 
 ---
