@@ -19,6 +19,7 @@
 | [`rnk`](https://github.com/majiayu000/rnk) | React-like terminal UI framework |
 | [`rui`](https://github.com/majiayu000/rui) | GPU-accelerated UI framework |
 | [`ccstats`](https://github.com/majiayu000/ccstats) | Claude Code token usage statistics |
+| [`jsonrepair-rs`](https://github.com/majiayu000/jsonrepair-rs) | Repair broken JSON from LLM outputs |
 
 ---
 
