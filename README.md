@@ -30,7 +30,7 @@
 | [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | Claude Code skills registry |
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for skills registry |
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for skills registry |
-| [`claude-arsenal`](https://github.com/majiayu000/claude-arsenal) | 39+ Claude Code skills & agents |
+| [`claude-arsenal`](https://github.com/majiayu000/claude-arsenal) | 70+ Claude Code skills & agents (incl. cliproxy stack for OpenAI-compatible API gateway) |
 | [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Claude skills manager |
 | [`claude-hub`](https://github.com/majiayu000/claude-hub) | Claude hub |
 | [`vibeguard`](https://github.com/majiayu000/vibeguard) | Anti-hallucination framework for AI-assisted development |
