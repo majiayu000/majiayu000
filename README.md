@@ -39,7 +39,7 @@
 | [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | The most comprehensive Claude Code skills registry |
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for the skills registry |
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for the skills registry |
-| [`claude-arsenal`](https://github.com/majiayu000/claude-arsenal) | 74 production-ready Claude Code skills and 7 specialized agents |
+| [`spellbook`](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows. |
 | [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Go CLI to discover, install, and manage Claude Code skills |
 | [`claude-hub`](https://github.com/majiayu000/claude-hub) | Claude hub |
 | [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution bot powered by Claude Code CLI |
