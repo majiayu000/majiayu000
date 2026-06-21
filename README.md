@@ -45,6 +45,18 @@
 | [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution bot powered by Claude Code CLI |
 | [`stash`](https://github.com/majiayu000/stash) | Inbox-first personal task system using Claude Code + Codex sessions as evidence |
 | [`refine`](https://github.com/majiayu000/refine) | Smart knowledge reuse engine — extract insights from Claude Code, Codex, ChatGPT conversations |
+| [`chat-archive-rs`](https://github.com/majiayu000/chat-archive-rs) | Rust CLI for archiving and searching Claude Code / Codex session history |
+
+---
+
+### `// REPO_OPERATIONS`
+
+| Project | Description |
+|:--------|:------------|
+| [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows - issue, spec, review, CI, and release contracts |
+| [`shipwise`](https://github.com/majiayu000/shipwise) | Agent-facing guide for open-source launches: repo design, discoverability, templates, and checklists |
+| [`test-loop`](https://github.com/majiayu000/test-loop) | Language-agnostic closed test loop toolkit for drift detection, failure classification, reports, and CI guardrails |
+| [`seo-agent-suite`](https://github.com/majiayu000/seo-agent-suite) | Codex SEO plugin suite for Shipwise discoverability audits |
 
 ---
 
@@ -55,6 +67,7 @@
 | [`caff`](https://github.com/majiayu000/caff) | macOS menu bar app that keeps the Mac awake during long-running agent tasks (Swift / IOKit) |
 | [`quotabar`](https://github.com/majiayu000/quotabar) | Tauri v2 macOS menubar app — monitor Claude + Codex quota usage with real-time tray status |
 | [`argus`](https://github.com/majiayu000/argus) | 100-eyed guardian — static install-time scanner for npm supply-chain attacks (Rust CLI) |
+| [`rekey`](https://github.com/majiayu000/rekey) | Rust CLI proxy for agent API key routing, credential isolation, and local transport control |
 | [`rss-scout`](https://github.com/majiayu000/rss-scout) | Zero-API knowledge discovery for AI dev domain — 113+ RSS/Atom feeds with keyword + arXiv filtering |
 | [`rclean`](https://github.com/majiayu000/rclean) | Rust-native CLI for finding and cleaning rebuildable developer artifacts |
 | [`spaceview`](https://github.com/majiayu000/spaceview) | High-performance macOS disk space analyzer with treemap visualization |
