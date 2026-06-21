@@ -25,27 +25,33 @@
 
 ---
 
-### `// AGENT_ECOSYSTEM`
+### `// AGENT_ORCHESTRATION`
 
 > Tools that work with **Claude Code** and **Codex CLI** (and friends).
 
 | Project | Description |
 |:--------|:------------|
-| [`vibeguard`](https://github.com/majiayu000/vibeguard) | Native rules, hooks, and guards that prevent Claude Code and Codex from hallucinating |
-| [`remem`](https://github.com/majiayu000/remem) | Automatic persistent memory for Claude Code + Codex — single Rust binary, zero config |
-| [`auto-run-agent`](https://github.com/majiayu000/auto-run-agent) | Go orchestrator that lets Claude Code or Codex CLI run autonomously for hours (successor to `claude-autopilot`) |
-| [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | 114 source-backed `/goal` contracts for coding agents, plus 200 separated seed patterns |
+| [`harness`](https://github.com/majiayu000/harness) | Rust orchestration platform for Claude Code + Codex + Anthropic API — policy engine, OTLP, MCP server |
 | [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane for AI coding agents |
+| [`spellbook`](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows. |
+| [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution bot powered by Claude Code CLI |
+| [`vibeguard`](https://github.com/majiayu000/vibeguard) | Native rules, hooks, and guards that prevent Claude Code and Codex from hallucinating |
 | [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | The most comprehensive Claude Code skills registry |
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for the skills registry |
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for the skills registry |
-| [`spellbook`](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows. |
 | [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Go CLI to discover, install, and manage Claude Code skills |
-| [`claude-hub`](https://github.com/majiayu000/claude-hub) | Claude hub |
-| [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution bot powered by Claude Code CLI |
-| [`stash`](https://github.com/majiayu000/stash) | Inbox-first personal task system using Claude Code + Codex sessions as evidence |
+
+---
+
+### `// MEMORY_AND_CONTEXT`
+
+| Project | Description |
+|:--------|:------------|
+| [`remem`](https://github.com/majiayu000/remem) | Automatic persistent memory for Claude Code + Codex — single Rust binary, zero config |
 | [`refine`](https://github.com/majiayu000/refine) | Smart knowledge reuse engine — extract insights from Claude Code, Codex, ChatGPT conversations |
 | [`chat-archive-rs`](https://github.com/majiayu000/chat-archive-rs) | Rust CLI for archiving and searching Claude Code / Codex session history |
+| [`claude-hub`](https://github.com/majiayu000/claude-hub) | Command center for Claude Code power users and long-running sessions |
+| [`stash`](https://github.com/majiayu000/stash) | Inbox-first personal task system using Claude Code + Codex sessions as evidence |
 
 ---
 
@@ -57,10 +63,11 @@
 | [`shipwise`](https://github.com/majiayu000/shipwise) | Agent-facing guide for open-source launches: repo design, discoverability, templates, and checklists |
 | [`test-loop`](https://github.com/majiayu000/test-loop) | Language-agnostic closed test loop toolkit for drift detection, failure classification, reports, and CI guardrails |
 | [`seo-agent-suite`](https://github.com/majiayu000/seo-agent-suite) | Codex SEO plugin suite for Shipwise discoverability audits |
+| [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | 114 source-backed `/goal` contracts for coding agents, plus 200 separated seed patterns |
 
 ---
 
-### `// TOOLS`
+### `// DEVELOPER_TOOLS`
 
 | Project | Description |
 |:--------|:------------|
