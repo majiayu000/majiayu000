@@ -60,6 +60,7 @@
 | Project | Description |
 |:--------|:------------|
 | [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows - issue, spec, review, CI, and release contracts |
+| [`open-source-repo-ledger`](https://github.com/majiayu000/open-source-repo-ledger) | Public GitHub repository readiness ledger: license, CI, releases, metadata, and next actions |
 | [`shipwise`](https://github.com/majiayu000/shipwise) | Agent-facing guide for open-source launches: repo design, discoverability, templates, and checklists |
 | [`test-loop`](https://github.com/majiayu000/test-loop) | Language-agnostic closed test loop toolkit for drift detection, failure classification, reports, and CI guardrails |
 | [`seo-agent-suite`](https://github.com/majiayu000/seo-agent-suite) | Codex SEO plugin suite for Shipwise discoverability audits |
