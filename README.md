@@ -82,6 +82,7 @@
 | [`techpulse`](https://github.com/majiayu000/techpulse) | AI/Tech news aggregator — HackerNews, Reddit, GitHub Trending, RSS, Lobsters |
 | [`codia`](https://github.com/majiayu000/codia) | Web-based 3D AI virtual companion with voice, lip sync, and emotion |
 | [`claude-code-anime-sounds`](https://github.com/majiayu000/claude-code-anime-sounds) | Anime-themed sound effects for Claude Code hooks |
+| [`gh-mine`](https://github.com/majiayu000/gh-mine) | List your own open GitHub issues and pull requests in one command (Bash + gh) |
 
 ---
 
