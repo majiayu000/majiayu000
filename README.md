@@ -11,6 +11,29 @@
 
 ---
 
+### `// THE_STACK`
+
+> One open-source stack for running coding agents as serious infrastructure.
+> Each repo stands alone — together they close the loop:
+
+```text
+extend ▶ trust ▶ remember ▶ orchestrate ▶ route ▶ keep
+```
+
+| Layer | Project | What it does |
+|:---|:---|:---|
+| Extend | [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | Discover and search community Claude Code skills |
+| Extend | [`spellbook`](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows |
+| Trust | [`argus`](https://github.com/majiayu000/argus) | Static install-time scanner for supply-chain attacks (npm / PyPI / crates.io) |
+| Trust | [`vibeguard`](https://github.com/majiayu000/vibeguard) | Rules, hooks, and guards against hallucinated or unverified agent changes |
+| Remember | [`remem`](https://github.com/majiayu000/remem) | Local-first persistent memory for Claude Code and Codex sessions |
+| Orchestrate | [`harness`](https://github.com/majiayu000/harness) | Rust agent orchestration platform — rules, skills, GC, observability |
+| Route | [`litellm-rs`](https://github.com/majiayu000/litellm-rs) | High-performance Rust AI gateway — 100+ LLM APIs via OpenAI format |
+| Keep | [`keepline`](https://github.com/majiayu000/keepline) | Session command center — monitor, recover, never lose agent work |
+
+---
+
+
 ### `// RUST_MODULES`
 
 | Project | Description |
@@ -50,7 +73,7 @@
 | [`remem`](https://github.com/majiayu000/remem) | Automatic persistent memory for Claude Code + Codex — single Rust binary, zero config |
 | [`refine`](https://github.com/majiayu000/refine) | Smart knowledge reuse engine — extract insights from Claude Code, Codex, ChatGPT conversations |
 | [`chat-archive-rs`](https://github.com/majiayu000/chat-archive-rs) | Rust CLI for archiving and searching Claude Code / Codex session history |
-| [`claude-hub`](https://github.com/majiayu000/claude-hub) | Command center for Claude Code power users and long-running sessions |
+| [`keepline`](https://github.com/majiayu000/keepline) | The command center for agent CLI power users — never lose Claude Code / Codex work |
 | [`stash`](https://github.com/majiayu000/stash) | Inbox-first personal task system using Claude Code + Codex sessions as evidence |
 
 ---
