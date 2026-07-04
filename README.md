@@ -40,6 +40,7 @@
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for the skills registry |
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for the skills registry |
 | [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Go CLI to discover, install, and manage Claude Code skills |
+| [`cc-model-watch`](https://github.com/majiayu000/cc-model-watch) | Statusline warning when Claude Code silently swaps the model serving your session |
 
 ---
 
