@@ -128,7 +128,7 @@ direct ▶ extend ▶ trust ▶ remember ▶ orchestrate ▶ route ▶ govern �
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=majiayu000&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ffff&icon_color=ff00ff&text_color=c9d1d9&ring_color=00ffff&include_all_commits=true" alt="GitHub Stats" height="170" />
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="480" />
 
 <img src="./metrics.plugin.languages.details.svg" alt="Languages" width="480" />
 
