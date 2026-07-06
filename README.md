@@ -9,7 +9,7 @@
 
 <br>
 
-<img src="https://ghchart.rshah.org/00ffff/majiayu000" alt="majiayu000 GitHub contribution chart" width="92%" />
+<img src="./assets/activity-card.svg" alt="majiayu000 GitHub contribution activity card" width="92%" />
 
 </div>
 
