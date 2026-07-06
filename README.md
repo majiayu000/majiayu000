@@ -124,18 +124,6 @@ direct ▶ extend ▶ trust ▶ remember ▶ orchestrate ▶ route ▶ govern �
 
 ---
 
-### `// TELEMETRY`
-
-<div align="center">
-
-<img src="./github-metrics.svg" alt="GitHub Metrics" width="480" />
-
-<img src="./metrics.plugin.languages.details.svg" alt="Languages" width="480" />
-
-</div>
-
----
-
 <div align="center">
 
 ```
