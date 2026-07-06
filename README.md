@@ -7,6 +7,10 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00ffff)](https://www.typescriptlang.org/)
 [![Swift](https://img.shields.io/badge/Swift-000000?style=for-the-badge&logo=swift&logoColor=ff9900)](https://swift.org/)
 
+<br>
+
+<img src="https://ghchart.rshah.org/00ffff/majiayu000" alt="majiayu000 GitHub contribution chart" width="92%" />
+
 </div>
 
 ---
