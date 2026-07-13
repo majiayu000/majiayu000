@@ -1,136 +1,152 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="lifcc — AI agent infrastructure control plane" src="./assets/hero-dark.svg" width="100%">
+</picture>
+
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+lifcc;Rust+Developer;AI+Agent+Infrastructure+Builder;Claude+Code+%2B+Codex+Ecosystem;Open+Source+Enthusiast)](https://git.io/typing-svg)
+[![Rust](https://img.shields.io/badge/RUST-050a12?style=for-the-badge&logo=rust&logoColor=00e7ff)](https://www.rust-lang.org/)
+[![Claude Code](https://img.shields.io/badge/CLAUDE_CODE-050a12?style=for-the-badge&logo=anthropic&logoColor=ff3d9a)](https://www.anthropic.com/claude-code)
+[![Codex](https://img.shields.io/badge/CODEX-050a12?style=for-the-badge&logo=openai&logoColor=00e7ff)](https://openai.com/codex/)
+[![Open Source](https://img.shields.io/badge/OPEN_SOURCE-050a12?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/majiayu000?tab=repositories)
 
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=ff00ff)](https://www.rust-lang.org/)
-[![Go](https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=00ffff)](https://go.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00ffff)](https://www.typescriptlang.org/)
-[![Swift](https://img.shields.io/badge/Swift-000000?style=for-the-badge&logo=swift&logoColor=ff9900)](https://swift.org/)
+I build the infrastructure around coding agents: **skills, trust, memory, orchestration, routing, governance, and recovery.**<br>
+Each project works alone. Together, they form a closed execution loop.
 
 </div>
 
 ---
 
-### `// THE_STACK`
+### `// THE_CLOSED_LOOP`
 
-> One open-source stack for running coding agents as serious infrastructure.
-> Each repo stands alone — together they close the loop:
-
-```text
-direct ▶ extend ▶ trust ▶ remember ▶ orchestrate ▶ route ▶ govern ▶ keep
-```
-
-| Layer | Project | What it does | |
-|:---|:---|:---|---:|
-| Direct | [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | 114 source-backed `/goal` contracts for coding agents | ![Stars](https://img.shields.io/github/stars/majiayu000/awesome-goal-prompts?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Extend | [`claude-skill-registry`](https://github.com/majiayu000/claude-skill-registry) | The most comprehensive Claude Code skills registry | ![Stars](https://img.shields.io/github/stars/majiayu000/claude-skill-registry?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Extend | [`spellbook`](https://github.com/majiayu000/spellbook) | Cross-runtime skills for Claude Code, Codex, and multi-agent workflows | ![Stars](https://img.shields.io/github/stars/majiayu000/spellbook?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Trust | [`argus`](https://github.com/majiayu000/argus) | Static install-time scanner for supply-chain attacks (npm / PyPI / crates.io) | ![Stars](https://img.shields.io/github/stars/majiayu000/argus?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Trust | [`vibeguard`](https://github.com/majiayu000/vibeguard) | Rules, hooks, and guards against hallucinated or unverified agent changes | ![Stars](https://img.shields.io/github/stars/majiayu000/vibeguard?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Remember | [`remem`](https://github.com/majiayu000/remem) | Local-first persistent memory for Claude Code and Codex sessions | ![Stars](https://img.shields.io/github/stars/majiayu000/remem?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Orchestrate | [`harness`](https://github.com/majiayu000/harness) | Run fleets of parallel coding agents with governance — Rust control plane | ![Stars](https://img.shields.io/github/stars/majiayu000/harness?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Route | [`litellm-rs`](https://github.com/majiayu000/litellm-rs) | High-performance Rust AI gateway — 100+ LLM APIs via OpenAI format | ![Stars](https://img.shields.io/github/stars/majiayu000/litellm-rs?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Govern | [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows | ![Stars](https://img.shields.io/github/stars/majiayu000/specrail?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
-| Keep | [`keepline`](https://github.com/majiayu000/keepline) | Session command center — monitor, recover, never lose agent work | ![Stars](https://img.shields.io/github/stars/majiayu000/keepline?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=00ffff) |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/closed-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/closed-loop-light.svg">
+  <img alt="Eight layers in the lifcc coding-agent infrastructure stack" src="./assets/closed-loop-dark.svg" width="100%">
+</picture>
 
 ---
 
-### `// MODULES`
+### `// FLAGSHIP_SYSTEMS`
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <code>EXTEND / 01</code>
+      <h3><a href="https://github.com/majiayu000/claude-skill-registry">claude-skill-registry</a></h3>
+      <p>The comprehensive discovery layer for Claude Code skills.</p>
+      <a href="https://github.com/majiayu000/claude-skill-registry/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/claude-skill-registry?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=00cce3"></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>EXTEND / 02</code>
+      <h3><a href="https://github.com/majiayu000/spellbook">spellbook</a></h3>
+      <p>Cross-runtime skills for Claude Code, Codex, and multi-agent workflows.</p>
+      <a href="https://github.com/majiayu000/spellbook/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/spellbook?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=00cce3"></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>ROUTE / 03</code>
+      <h3><a href="https://github.com/majiayu000/litellm-rs">litellm-rs</a></h3>
+      <p>High-performance Rust gateway for 100+ LLM APIs through one format.</p>
+      <a href="https://github.com/majiayu000/litellm-rs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/litellm-rs?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=ff3d9a"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <code>ORCHESTRATE / 04</code>
+      <h3><a href="https://github.com/majiayu000/harness">harness</a></h3>
+      <p>Governed fleets of parallel coding agents, powered by a Rust control plane.</p>
+      <a href="https://github.com/majiayu000/harness/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/harness?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=ff3d9a"></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>TRUST / 05</code>
+      <h3><a href="https://github.com/majiayu000/vibeguard">vibeguard</a></h3>
+      <p>Rules, hooks, and guards against hallucinated or unverified agent changes.</p>
+      <a href="https://github.com/majiayu000/vibeguard/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/vibeguard?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=ff3d9a"></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>REMEMBER / 06</code>
+      <h3><a href="https://github.com/majiayu000/remem">remem</a></h3>
+      <p>Local-first, auditable memory for long-running Claude Code and Codex work.</p>
+      <a href="https://github.com/majiayu000/remem/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/remem?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=ff3d9a"></a>
+    </td>
+  </tr>
+</table>
 
 <details>
-<summary><b>🦀 RUST_MODULES</b> — systems tooling in pure Rust</summary>
+<summary><b><code>// OPEN_MODULE_BAY</code></b> — more systems, tools, and experiments</summary>
 <br>
 
-| Project | Description |
-|:--------|:------------|
-| [`sage`](https://github.com/majiayu000/sage) | Fast Rust CLI for batch-extracting structured observations from Claude Code and Codex sessions |
-| [`rnk`](https://github.com/majiayu000/rnk) | Declarative TUI framework with React-like hooks, flexbox layout, 45+ components |
-| [`rui`](https://github.com/majiayu000/rui) | GPU-accelerated UI framework, inspired by GPUI |
-| [`ccstats`](https://github.com/majiayu000/ccstats) | CLI for Claude Code + Codex token / cost usage analytics |
-| [`jsonrepair-rs`](https://github.com/majiayu000/jsonrepair-rs) | Repair broken JSON from LLM outputs — 30+ issue types |
-| [`rekey`](https://github.com/majiayu000/rekey) | Rust CLI proxy for agent API key routing, credential isolation, and local transport control |
-| [`rclean`](https://github.com/majiayu000/rclean) | Rust-native CLI for finding and cleaning rebuildable developer artifacts |
+#### Core loop
 
-</details>
+| Project | Role |
+|:--|:--|
+| [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | 114 source-backed `/goal` contracts for coding agents |
+| [`argus`](https://github.com/majiayu000/argus) | Install-time supply-chain scanner for npm, PyPI, and crates.io |
+| [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows |
+| [`keepline`](https://github.com/majiayu000/keepline) | Session command center for monitoring and recovering agent work |
 
-<details>
-<summary><b>🤖 AGENT_TOOLING</b> — extensions for Claude Code, Codex CLI (and friends)</summary>
-<br>
+#### Rust systems
 
-| Project | Description |
-|:--------|:------------|
-| [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane for AI coding agents |
-| [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Core deduplicated artifacts and index for the skills registry |
-| [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data for the skills registry |
-| [`caude-skill-manager`](https://github.com/majiayu000/caude-skill-manager) | Go CLI to discover, install, and manage Claude Code skills |
-| [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution bot powered by Claude Code CLI |
-| [`cc-model-watch`](https://github.com/majiayu000/cc-model-watch) | Statusline warning when Claude Code silently swaps the model serving your session |
-| [`claude-code-anime-sounds`](https://github.com/majiayu000/claude-code-anime-sounds) | Anime-themed sound effects for Claude Code hooks |
+| Project | Role |
+|:--|:--|
+| [`sage`](https://github.com/majiayu000/sage) | Blazing-fast coding agent in pure Rust |
+| [`rnk`](https://github.com/majiayu000/rnk) | Declarative TUI framework with React-like hooks and 45+ components |
+| [`rui`](https://github.com/majiayu000/rui) | GPU-accelerated UI framework inspired by GPUI |
+| [`ccstats`](https://github.com/majiayu000/ccstats) | Claude Code and Codex token/cost analytics CLI |
+| [`jsonrepair-rs`](https://github.com/majiayu000/jsonrepair-rs) | Repair 30+ classes of malformed JSON from LLM output |
+| [`rekey`](https://github.com/majiayu000/rekey) | Agent API-key routing and credential-isolation proxy |
+| [`rclean`](https://github.com/majiayu000/rclean) | Find and clean rebuildable developer artifacts |
 
-</details>
+#### Agent tooling
 
-<details>
-<summary><b>🧠 MEMORY_AND_CONTEXT</b> — never lose what your agents learned</summary>
-<br>
+| Project | Role |
+|:--|:--|
+| [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane |
+| [`claude-skill-manager`](https://github.com/majiayu000/claude-skill-manager) | Discover, install, and manage Claude Code skills |
+| [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Deduplicated registry artifacts and index |
+| [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data |
+| [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution workflow powered by Claude Code |
+| [`cc-model-watch`](https://github.com/majiayu000/cc-model-watch) | Warn when Claude Code silently swaps the serving model |
+| [`claude-code-anime-sounds`](https://github.com/majiayu000/claude-code-anime-sounds) | Anime-themed Claude Code hook sounds |
 
-| Project | Description |
-|:--------|:------------|
-| [`refine`](https://github.com/majiayu000/refine) | Smart knowledge reuse engine — extract insights from Claude Code, Codex, ChatGPT conversations |
-| [`chat-archive-rs`](https://github.com/majiayu000/chat-archive-rs) | Rust CLI for archiving and searching Claude Code / Codex session history |
-| [`stash`](https://github.com/majiayu000/stash) | Inbox-first personal task system using Claude Code + Codex sessions as evidence |
+#### Memory, context, and repository operations
 
-</details>
+| Project | Role |
+|:--|:--|
+| [`refine`](https://github.com/majiayu000/refine) | Extract reusable knowledge from coding-agent conversations |
+| [`chat-archive-rs`](https://github.com/majiayu000/chat-archive-rs) | Archive and search Claude Code and Codex sessions |
+| [`stash`](https://github.com/majiayu000/stash) | Evidence-backed personal task inbox |
+| [`open-source-repo-ledger`](https://github.com/majiayu000/open-source-repo-ledger) | Public repository-readiness ledger |
+| [`shipwise`](https://github.com/majiayu000/shipwise) | Agent-facing open-source launch playbook |
+| [`test-loop`](https://github.com/majiayu000/test-loop) | Language-agnostic drift detection and CI guardrails |
+| [`seo-agent-suite`](https://github.com/majiayu000/seo-agent-suite) | Discoverability audits for Shipwise |
 
-<details>
-<summary><b>🚢 REPO_OPERATIONS</b> — ship open source like it matters</summary>
-<br>
+#### Daily drivers and experiments
 
-| Project | Description |
-|:--------|:------------|
-| [`open-source-repo-ledger`](https://github.com/majiayu000/open-source-repo-ledger) | Public GitHub repository readiness ledger: license, CI, releases, metadata, and next actions |
-| [`shipwise`](https://github.com/majiayu000/shipwise) | Agent-facing guide for open-source launches: repo design, discoverability, templates, and checklists |
-| [`test-loop`](https://github.com/majiayu000/test-loop) | Language-agnostic closed test loop toolkit for drift detection, failure classification, reports, and CI guardrails |
-| [`seo-agent-suite`](https://github.com/majiayu000/seo-agent-suite) | Codex SEO plugin suite for Shipwise discoverability audits |
-
-</details>
-
-<details>
-<summary><b>🛠️ DEVELOPER_TOOLS</b> — daily drivers</summary>
-<br>
-
-| Project | Description |
-|:--------|:------------|
-| [`caff`](https://github.com/majiayu000/caff) | macOS menu bar app that keeps the Mac awake during long-running agent tasks (Swift / IOKit) |
-| [`quotabar`](https://github.com/majiayu000/quotabar) | Tauri v2 macOS menubar app — monitor Claude + Codex quota usage with real-time tray status |
-| [`rss-scout`](https://github.com/majiayu000/rss-scout) | Zero-API knowledge discovery for AI dev domain — 113+ RSS/Atom feeds with keyword + arXiv filtering |
-| [`spaceview`](https://github.com/majiayu000/spaceview) | High-performance macOS disk space analyzer with treemap visualization |
-| [`techpulse`](https://github.com/majiayu000/techpulse) | AI/Tech news aggregator — HackerNews, Reddit, GitHub Trending, RSS, Lobsters |
-| [`codia`](https://github.com/majiayu000/codia) | Web-based 3D AI virtual companion with voice, lip sync, and emotion |
-| [`gh-mine`](https://github.com/majiayu000/gh-mine) | List your own open GitHub issues and pull requests in one command (Bash + gh) |
-
-</details>
-
-<details>
-<summary><b>🎮 GAMES</b> — <code>[WIP]</code></summary>
-<br>
-
-| Project | Description |
-|:--------|:------------|
-| [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | 神秘复苏：鬼域求生 — Roguelike based on the novel *Mysterious Revival* (Godot 4.x) `🚧 WIP` |
-| [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | 🐺 Online multiplayer Werewolf (狼人杀) — Nakama + React |
-| [`games-monorepo`](https://github.com/majiayu000/games-monorepo) | 🎮 Multiplayer games collection: Werewolf + Poker — Nakama + React |
+| Project | Role |
+|:--|:--|
+| [`caff`](https://github.com/majiayu000/caff) | Keep macOS awake during long-running agent tasks |
+| [`quotabar`](https://github.com/majiayu000/quotabar) | Claude and Codex quota monitor for the macOS menu bar |
+| [`rss-scout`](https://github.com/majiayu000/rss-scout) | Zero-API AI/tech discovery across 113+ feeds |
+| [`spaceview`](https://github.com/majiayu000/spaceview) | High-performance macOS disk analyzer with treemap visualization |
+| [`techpulse`](https://github.com/majiayu000/techpulse) | Hacker News, Reddit, GitHub, RSS, and Lobsters aggregator |
+| [`codia`](https://github.com/majiayu000/codia) | Web-based 3D AI companion with voice and emotion |
+| [`gh-mine`](https://github.com/majiayu000/gh-mine) | List your open GitHub issues and pull requests in one command |
+| [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Godot roguelike based on *Mysterious Revival* — WIP |
+| [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | Online multiplayer Werewolf with Nakama and React |
 
 </details>
 
 ---
+
+### `// OPEN_CHANNEL`
 
 <div align="center">
 
-```
-┌──────────────────────────────────────┐
-│  BLOG: silencestar.com               │
-│  MAIL: mylifcc@gmail.com             │
-└──────────────────────────────────────┘
-```
+[![Blog](https://img.shields.io/badge/BLOG-SILENCESTAR.COM-050a12?style=for-the-badge&logo=rss&logoColor=00e7ff)](https://silencestar.com)
+[![Email](https://img.shields.io/badge/MAIL-MYLIFCC%40GMAIL.COM-050a12?style=for-the-badge&logo=gmail&logoColor=ff3d9a)](mailto:mylifcc@gmail.com)
+
+<sub>BEIJING · UTC+8 · USUALLY BUILDING SOMETHING THAT KEEPS AGENTS HONEST</sub>
 
 </div>
