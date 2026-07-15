@@ -1,38 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">The lifcc coding-agent infrastructure loop</title>
-  <desc id="desc">Eight open-source layers connect goals, extensions, trust, memory, orchestration, routing, governance, and session recovery.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#fff5f9"/></linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#527989" opacity="0.24"/></pattern>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#008eaa"/></marker>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <style>
-    text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-    .route { stroke-dasharray: 8 10; animation: route 5s linear infinite; }
-    .hot { animation: hot 3s ease-in-out infinite; }
-    .n2 { animation-delay: .35s; } .n3 { animation-delay: .7s; } .n4 { animation-delay: 1.05s; }
-    .n5 { animation-delay: 1.4s; } .n6 { animation-delay: 1.75s; } .n7 { animation-delay: 2.1s; } .n8 { animation-delay: 2.45s; }
-    @keyframes route { to { stroke-dashoffset: -72; } }
-    @keyframes hot { 0%, 100% { opacity: .62; } 45%, 70% { opacity: 1; } }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-  </style>
-  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="298" rx="13" fill="none" stroke="#9db7c3"/><rect x="1" y="1" width="1198" height="298" rx="13" fill="url(#dots)"/>
-  <text x="34" y="37" fill="#007f98" font-size="12" letter-spacing="3">// THE_CLOSED_LOOP</text>
-  <text x="240" y="37" fill="#526c78" font-size="11" letter-spacing="1">INDEPENDENT SYSTEMS / SHARED CONTRACT / VERIFIED EXECUTION</text>
-  <circle cx="1130" cy="32" r="4" fill="#c62869" filter="url(#glow)"/><text x="1142" y="36" fill="#526c78" font-size="9" letter-spacing="1">LIVE</text>
-  <path d="M220 110H265M445 110H490M670 110H715M895 110H940M1120 110H1150V223H1120M940 223H895M715 223H670M490 223H130V146" fill="none" stroke="#008eaa" stroke-width="1.4" opacity="0.67" marker-end="url(#arrow)" class="route"/>
-  <path d="M130 146V174" stroke="#c62869" opacity="0.5" stroke-dasharray="3 5"/>
-  <g>
-    <g class="hot"><rect x="40" y="74" width="180" height="72" rx="6" fill="#f7fcfd" stroke="#5e9faf"/><text x="56" y="95" fill="#007f98" font-size="9" letter-spacing="2">01 / DIRECT</text><text x="56" y="119" fill="#173845" font-size="14">goal contracts</text><text x="56" y="136" fill="#526c78" font-size="9">awesome-goal-prompts</text></g>
-    <g class="hot n2"><rect x="265" y="74" width="180" height="72" rx="6" fill="#f7fcfd" stroke="#5e9faf"/><text x="281" y="95" fill="#007f98" font-size="9" letter-spacing="2">02 / EXTEND</text><text x="281" y="119" fill="#173845" font-size="14">skills + runtime</text><text x="281" y="136" fill="#526c78" font-size="9">registry / spellbook</text></g>
-    <g class="hot n3"><rect x="490" y="74" width="180" height="72" rx="6" fill="#f7fcfd" stroke="#5e9faf"/><text x="506" y="95" fill="#007f98" font-size="9" letter-spacing="2">03 / TRUST</text><text x="506" y="119" fill="#173845" font-size="14">scan + guard</text><text x="506" y="136" fill="#526c78" font-size="9">argus / vibeguard</text></g>
-    <g class="hot n4"><rect x="715" y="74" width="180" height="72" rx="6" fill="#f7fcfd" stroke="#5e9faf"/><text x="731" y="95" fill="#007f98" font-size="9" letter-spacing="2">04 / REMEMBER</text><text x="731" y="119" fill="#173845" font-size="14">persistent context</text><text x="731" y="136" fill="#526c78" font-size="9">remem</text></g>
-    <g class="hot n5"><rect x="940" y="74" width="180" height="72" rx="6" fill="#fff8fb" stroke="#c56a91"/><text x="956" y="95" fill="#b91f5c" font-size="9" letter-spacing="1.5">05 / ORCHESTRATE</text><text x="956" y="119" fill="#552036" font-size="14">agent fleets</text><text x="956" y="136" fill="#785867" font-size="9">harness</text></g>
-    <g class="hot n6"><rect x="940" y="187" width="180" height="72" rx="6" fill="#fff8fb" stroke="#c56a91"/><text x="956" y="208" fill="#b91f5c" font-size="9" letter-spacing="2">06 / ROUTE</text><text x="956" y="232" fill="#552036" font-size="14">model gateway</text><text x="956" y="249" fill="#785867" font-size="9">litellm-rs</text></g>
-    <g class="hot n7"><rect x="715" y="187" width="180" height="72" rx="6" fill="#fff8fb" stroke="#c56a91"/><text x="731" y="208" fill="#b91f5c" font-size="9" letter-spacing="2">07 / GOVERN</text><text x="731" y="232" fill="#552036" font-size="14">spec-first rails</text><text x="731" y="249" fill="#785867" font-size="9">specrail</text></g>
-    <g class="hot n8"><rect x="490" y="187" width="180" height="72" rx="6" fill="#fff8fb" stroke="#c56a91"/><text x="506" y="208" fill="#b91f5c" font-size="9" letter-spacing="2">08 / KEEP</text><text x="506" y="232" fill="#552036" font-size="14">recover sessions</text><text x="506" y="249" fill="#785867" font-size="9">keepline</text></g>
-  </g>
-  <text x="40" y="278" fill="#526c78" font-size="9" letter-spacing="1.5">INPUT: INTENT</text><text x="1030" y="278" fill="#526c78" font-size="9" letter-spacing="1.5">OUTPUT: PROOF</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc" data-mode="light">
+      <title id="title">lif closed-loop architecture</title>
+      <desc id="desc">8 open-source systems connected as one coding-agent infrastructure loop.</desc>
+      <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6FBFD"/><stop offset="1" stop-color="#FFF6FA"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00E7FF"/><stop offset="1" stop-color="#FF3D9A"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#D7E7ED" stroke-width="1"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="358" rx="18"/></clipPath>
+  </defs><style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+    .label{font-size:12px;letter-spacing:3px;font-weight:700}.micro{font-size:10px;letter-spacing:2px}
+    .flow{stroke-dasharray:7 9;animation:flow 8s linear infinite}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+    .orbit{transform-box:fill-box;transform-origin:center;animation:orbit 24s linear infinite}.blink{animation:blink 2s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-160}}@keyframes pulse{50%{opacity:.35;transform:scale(.72)}}
+    @keyframes orbit{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){.flow,.pulse,.orbit,.blink{animation:none}}
+  </style><rect width="1200" height="330" rx="18" fill="url(#bg)"/><rect width="1200" height="330" rx="18" fill="url(#grid)" opacity=".7"/>
+      <text x="28" y="34" class="label" fill="#00E7FF">CLOSED LOOP / ARCHITECTURE MAP</text><text x="1170" y="34" text-anchor="end" class="micro" fill="#506D7A">08 NODES · ONE SYSTEM</text>
+      <path d="M600.0 60.0L904.1 90.5L1030.0 164.0L904.1 237.5L600.0 268.0L295.9 237.5L170.0 164.0L295.9 90.5Z" fill="none" stroke="#A9C4CF" stroke-width="2"/><path class="flow" d="M600.0 60.0L904.1 90.5L1030.0 164.0L904.1 237.5L600.0 268.0L295.9 237.5L170.0 164.0L295.9 90.5Z" fill="none" stroke="url(#accent)" stroke-width="2"/>
+      <g transform="translate(600 164)"><circle r="62" fill="#FFFFFF" stroke="#A9C4CF"/><circle class="orbit" r="48" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="5 8"/>
+      <circle r="23" fill="#F6FBFD" stroke="#00E7FF" filter="url(#glow)"/><circle class="pulse" r="6" fill="#00E7FF"/>
+      <text y="84" text-anchor="middle" class="micro" fill="#506D7A">OPEN-SOURCE AGENT SYSTEMS</text></g><g><circle cx="600.0" cy="60.0" r="15" fill="#FFFFFF" stroke="#00E7FF" stroke-width="2"/><circle class="pulse" cx="600.0" cy="60.0" r="4" fill="#00E7FF"/>
+        <text x="600.0" y="42.0" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">DISCOVER</text>
+        <text x="600.0" y="54.0" text-anchor="middle" font-size="8" fill="#506D7A">claude-skill-registry</text>
+        <text x="600.0" y="63.0" text-anchor="middle" font-size="8" fill="#00E7FF">01</text></g><g><circle cx="904.1" cy="90.5" r="15" fill="#FFFFFF" stroke="#00E7FF" stroke-width="2"/><circle class="pulse" cx="904.1" cy="90.5" r="4" fill="#00E7FF"/>
+        <text x="904.1" y="72.5" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">EXTEND</text>
+        <text x="904.1" y="84.5" text-anchor="middle" font-size="8" fill="#506D7A">spellbook</text>
+        <text x="904.1" y="93.5" text-anchor="middle" font-size="8" fill="#00E7FF">02</text></g><g><circle cx="1030.0" cy="164.0" r="15" fill="#FFFFFF" stroke="#00E7FF" stroke-width="2"/><circle class="pulse" cx="1030.0" cy="164.0" r="4" fill="#00E7FF"/>
+        <text x="1030.0" y="194.0" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">EXECUTE</text>
+        <text x="1030.0" y="206.0" text-anchor="middle" font-size="8" fill="#506D7A">sage</text>
+        <text x="1030.0" y="167.0" text-anchor="middle" font-size="8" fill="#00E7FF">03</text></g><g><circle cx="904.1" cy="237.5" r="15" fill="#FFFFFF" stroke="#00E7FF" stroke-width="2"/><circle class="pulse" cx="904.1" cy="237.5" r="4" fill="#00E7FF"/>
+        <text x="904.1" y="267.5" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">ROUTE</text>
+        <text x="904.1" y="279.5" text-anchor="middle" font-size="8" fill="#506D7A">litellm-rs</text>
+        <text x="904.1" y="240.5" text-anchor="middle" font-size="8" fill="#00E7FF">04</text></g><g><circle cx="600.0" cy="268.0" r="15" fill="#FFFFFF" stroke="#FF3D9A" stroke-width="2"/><circle class="pulse" cx="600.0" cy="268.0" r="4" fill="#FF3D9A"/>
+        <text x="600.0" y="298.0" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">ORCHESTRATE</text>
+        <text x="600.0" y="310.0" text-anchor="middle" font-size="8" fill="#506D7A">harness</text>
+        <text x="600.0" y="271.0" text-anchor="middle" font-size="8" fill="#FF3D9A">05</text></g><g><circle cx="295.9" cy="237.5" r="15" fill="#FFFFFF" stroke="#FF3D9A" stroke-width="2"/><circle class="pulse" cx="295.9" cy="237.5" r="4" fill="#FF3D9A"/>
+        <text x="295.9" y="267.5" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">TRUST</text>
+        <text x="295.9" y="279.5" text-anchor="middle" font-size="8" fill="#506D7A">vibeguard</text>
+        <text x="295.9" y="240.5" text-anchor="middle" font-size="8" fill="#FF3D9A">06</text></g><g><circle cx="170.0" cy="164.0" r="15" fill="#FFFFFF" stroke="#FF3D9A" stroke-width="2"/><circle class="pulse" cx="170.0" cy="164.0" r="4" fill="#FF3D9A"/>
+        <text x="170.0" y="194.0" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">REMEMBER</text>
+        <text x="170.0" y="206.0" text-anchor="middle" font-size="8" fill="#506D7A">remem</text>
+        <text x="170.0" y="167.0" text-anchor="middle" font-size="8" fill="#FF3D9A">07</text></g><g><circle cx="295.9" cy="90.5" r="15" fill="#FFFFFF" stroke="#FF3D9A" stroke-width="2"/><circle class="pulse" cx="295.9" cy="90.5" r="4" fill="#FF3D9A"/>
+        <text x="295.9" y="72.5" text-anchor="middle" font-size="10" font-weight="700" fill="#102934">RECOVER</text>
+        <text x="295.9" y="84.5" text-anchor="middle" font-size="8" fill="#506D7A">keepline</text>
+        <text x="295.9" y="93.5" text-anchor="middle" font-size="8" fill="#FF3D9A">08</text></g>
+      <rect x="1" y="1" width="1198" height="328" rx="18" fill="none" stroke="#FF3D9A" stroke-opacity=".55"/>
+    </svg>
