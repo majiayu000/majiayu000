@@ -108,6 +108,7 @@ Each project works alone. Together, they form a closed execution loop.
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data |
 | [`auto-contributor`](https://github.com/majiayu000/auto-contributor) | Automated GitHub contribution workflow powered by Claude Code |
 | [`cc-model-watch`](https://github.com/majiayu000/cc-model-watch) | Warn when Claude Code silently swaps the serving model |
+| [`ccp`](https://github.com/majiayu000/ccp) | Isolated Claude Code profiles — run multiple API providers side by side |
 | [`claude-code-anime-sounds`](https://github.com/majiayu000/claude-code-anime-sounds) | Anime-themed Claude Code hook sounds |
 
 #### Memory, context, and repository operations
