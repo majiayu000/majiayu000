@@ -134,6 +134,7 @@ Each project works alone. Together, they form a closed execution loop.
 | [`techpulse`](https://github.com/majiayu000/techpulse) | Hacker News, Reddit, GitHub, RSS, and Lobsters aggregator |
 | [`codia`](https://github.com/majiayu000/codia) | Web-based 3D AI companion with voice and emotion |
 | [`gh-mine`](https://github.com/majiayu000/gh-mine) | List your open GitHub issues and pull requests in one command |
+| [`issue-lens`](https://github.com/majiayu000/issue-lens) | Mine peer products' resolved GitHub issues into test-design inspiration, indexed by product form |
 | [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Godot roguelike based on *Mysterious Revival* — WIP |
 | [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | Online multiplayer Werewolf with Nakama and React |
 
