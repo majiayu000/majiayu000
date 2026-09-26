@@ -137,6 +137,7 @@ Each project works alone. Together, they form a closed execution loop.
 | [`issue-lens`](https://github.com/majiayu000/issue-lens) | Mine peer products' resolved GitHub issues into test-design inspiration, indexed by product form |
 | [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Godot roguelike based on *Mysterious Revival* — WIP |
 | [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | Online multiplayer Werewolf with Nakama and React |
+| [`ephemera`](https://github.com/majiayu000/ephemera) | Code-only browser animations: ray-traced black hole, a million GPU particles, synthwave, ink-wash film |
 
 </details>
 
