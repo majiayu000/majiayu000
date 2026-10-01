@@ -18,6 +18,23 @@ Each project works alone. Together, they form a closed execution loop.
 
 ---
 
+### `// START_WITH_A_TASK`
+
+Choose the problem you want to solve, then follow that project's setup guide.
+
+| Your task | Start here |
+|:--|:--|
+| Find skills for coding agents | [claude-skill-registry](https://github.com/majiayu000/claude-skill-registry#readme) for discovery; [spellbook](https://github.com/majiayu000/spellbook#readme) for reusable workflows |
+| Keep context across long-running agent work | [remem](https://github.com/majiayu000/remem#readme) |
+| Route requests to LLM providers | [litellm-rs](https://github.com/majiayu000/litellm-rs#readme) |
+| Understand Claude Code and Codex usage costs | [ccstats](https://github.com/majiayu000/ccstats#readme) |
+| Keep a Mac awake during agent tasks | [Caff's task guide](https://github.com/majiayu000/caff/blob/main/docs/guides/keep-mac-awake-for-agent-tasks.md) |
+
+Each repository documents its own installation, requirements, support, and license.
+The stack diagram below describes how the projects relate; it is not a shared installer.
+
+---
+
 ### `// THE_CLOSED_LOOP`
 
 <picture>
