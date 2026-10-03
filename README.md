@@ -156,6 +156,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 | [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Godot roguelike based on *Mysterious Revival* — WIP |
 | [`werewolf-nakama`](https://github.com/majiayu000/werewolf-nakama) | Online multiplayer Werewolf with Nakama and React |
 | [`ephemera`](https://github.com/majiayu000/ephemera) | Code-only browser animations: ray-traced black hole, a million GPU particles, synthwave, ink-wash film |
+| [`stillmotion`](https://github.com/majiayu000/stillmotion) | Record browser animations into frame-exact MP4 with synthesized sound: CSS, SVG and WebGL |
 
 </details>
 
