@@ -151,6 +151,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 | [`spaceview`](https://github.com/majiayu000/spaceview) | High-performance macOS disk analyzer with treemap visualization |
 | [`techpulse`](https://github.com/majiayu000/techpulse) | Hacker News, Reddit, GitHub, RSS, and Lobsters aggregator |
 | [`codia`](https://github.com/majiayu000/codia) | Web-based 3D AI companion with voice and emotion |
+| [`openbot`](https://github.com/majiayu000/openbot) | Self-hosted multi-bot chat with persistent roles, memory, and scheduled work |
 | [`gh-mine`](https://github.com/majiayu000/gh-mine) | List your open GitHub issues and pull requests in one command |
 | [`issue-lens`](https://github.com/majiayu000/issue-lens) | Mine peer products' resolved GitHub issues into test-design inspiration, indexed by product form |
 | [`mysterious-revival`](https://github.com/majiayu000/mysterious-revival) | Godot roguelike based on *Mysterious Revival* — WIP |
