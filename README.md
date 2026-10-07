@@ -64,7 +64,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
     <td width="33%" valign="top">
       <code>ROUTE / 03</code>
       <h3><a href="https://github.com/majiayu000/litellm-rs">litellm-rs</a></h3>
-      <p>High-performance Rust gateway for 100+ LLM APIs through one format.</p>
+      <p>High-performance Rust gateway with 60+ runtime-wired providers through one format.</p>
       <a href="https://github.com/majiayu000/litellm-rs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/majiayu000/litellm-rs?style=flat-square&amp;label=%E2%98%85&amp;labelColor=0d1117&amp;color=ff3d9a"></a>
     </td>
   </tr>
