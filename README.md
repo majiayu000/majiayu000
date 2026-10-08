@@ -100,7 +100,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 |:--|:--|
 | [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | 114 source-backed `/goal` contracts for coding agents |
 | [`argus`](https://github.com/majiayu000/argus) | Install-time supply-chain scanner for npm, PyPI, and crates.io |
-| [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows |
+| [`specrail`](https://github.com/majiayu000/specrail) | Spec-first rails for agent-assisted repository workflows (archived) |
 | [`keepline`](https://github.com/majiayu000/keepline) | Session command center for monitoring and recovering agent work |
 
 #### Rust systems
@@ -120,7 +120,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 | Project | Role |
 |:--|:--|
 | [`tokenpulse`](https://github.com/majiayu000/tokenpulse) | Read-only Codex and Claude Desktop throughput analysis with consistent timing and a controlled benchmark protocol |
-| [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane |
+| [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane (no new features) |
 | [`claude-skill-manager`](https://github.com/majiayu000/claude-skill-manager) | Discover, install, and manage Claude Code skills |
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Deduplicated registry artifacts and index |
 | [`claude-skill-registry-data`](https://github.com/majiayu000/claude-skill-registry-data) | Raw skills archive data |
