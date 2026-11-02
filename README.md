@@ -120,6 +120,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 | Project | Role |
 |:--|:--|
 | [`tokenpulse`](https://github.com/majiayu000/tokenpulse) | Read-only Codex and Claude Desktop throughput analysis with consistent timing and a controlled benchmark protocol |
+| [`peerscope`](https://github.com/majiayu000/peerscope) | Staged competitive analysis skill: compare your product with best-in-class peers, with evidence levels |
 | [`loom`](https://github.com/majiayu000/loom) | Skill registry and projection control plane (no new features) |
 | [`claude-skill-manager`](https://github.com/majiayu000/claude-skill-manager) | Discover, install, and manage Claude Code skills |
 | [`claude-skill-registry-core`](https://github.com/majiayu000/claude-skill-registry-core) | Deduplicated registry artifacts and index |
