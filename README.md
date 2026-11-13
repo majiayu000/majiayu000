@@ -30,6 +30,7 @@ Choose the problem you want to solve, then follow that project's setup guide.
 | Keep context across long-running agent work | [remem](https://github.com/majiayu000/remem#readme) |
 | Route requests across 60+ LLM providers in Rust | [litellm-rs](https://github.com/majiayu000/litellm-rs#readme) |
 | Track Claude, Codex, Cursor, and Grok quotas & costs | [quotabar](https://github.com/majiayu000/quotabar#readme) · [ccstats](https://github.com/majiayu000/ccstats#readme) |
+| Inspect Claude routing consistency and local alerts | [claude-route-watch](https://github.com/majiayu000/claude-route-watch#readme) |
 
 Each repository documents its own installation, requirements, support, and license.
 The stack diagram below describes how the projects relate; it is not a shared installer.
