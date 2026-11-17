@@ -20,20 +20,19 @@ Each project works alone. Together, they form a closed execution loop.
 
 ### `// START_WITH_A_TASK`
 
-Choose the problem you want to solve, then follow that project's setup guide.
+Choose a task and follow the linked first-run instructions. Include the version,
+platform, and a redacted reproduction when reporting an issue in that repository.
 
-| Your task | Start here |
-|:--|:--|
-| Run parallel coding agents in one native macOS workbench | [fibo](https://github.com/majiayu000/fibo#readme) ([fibo.page](https://fibo.page)) |
-| Find, reuse, and audit skills for coding agents | [claude-skill-registry](https://github.com/majiayu000/claude-skill-registry#readme) for discovery · [spellbook](https://github.com/majiayu000/spellbook#readme) for workflows · [skill-checkup](https://github.com/majiayu000/skill-checkup#readme) to lint installed skills |
-| Stop unverified completions and guard agent changes | [vibeguard](https://github.com/majiayu000/vibeguard#readme) · [receipt](https://github.com/majiayu000/receipt#readme) |
-| Keep context across long-running agent work | [remem](https://github.com/majiayu000/remem#readme) |
-| Route requests across 60+ LLM providers in Rust | [litellm-rs](https://github.com/majiayu000/litellm-rs#readme) |
-| Track Claude, Codex, Cursor, and Grok quotas & costs | [quotabar](https://github.com/majiayu000/quotabar#readme) · [ccstats](https://github.com/majiayu000/ccstats#readme) |
-| Inspect Claude routing consistency and local alerts | [claude-route-watch](https://github.com/majiayu000/claude-route-watch#readme) |
-
-Each repository documents its own installation, requirements, support, and license.
-The stack diagram below describes how the projects relate; it is not a shared installer.
+| Your task | Start here | Platform or setup |
+|:--|:--|:--|
+| Run parallel coding agents in a native workbench | [Fibo installation](https://github.com/majiayu000/fibo#install) ([fibo.page](https://fibo.page)) | macOS 14+ on Apple silicon and Intel. Windows x64 is a preview. |
+| Install your first coding-agent skill | [Registry code-review walkthrough](https://majiayu000.github.io/claude-skill-registry/guides/code-review.html) | Use [Spellbook](https://github.com/majiayu000/spellbook#quick-start) for workflows and [skill-checkup](https://github.com/majiayu000/skill-checkup#readme) to audit installed skills. |
+| Run an agent task with policy enforcement | [Harness single-agent quickstart](https://github.com/majiayu000/harness#quickstart-run-one-agent-task) | Docker, runtime and proxy images, and a configured provider. Fleet setup also uses PostgreSQL. |
+| Check agent changes for missing verification | [VibeGuard release install](https://github.com/majiayu000/vibeguard#install-from-a-release-archive) · [receipt](https://github.com/majiayu000/receipt#readme) | VibeGuard supports macOS, Linux and WSL. The native Windows path is experimental. |
+| Keep context across long-running agent work | [Remem installation](https://github.com/majiayu000/remem#install-in-five-minutes) | Check the [host support matrix](https://github.com/majiayu000/remem#host-support) for your runtime and OS. |
+| Route model requests through a self-hosted Rust gateway | [LiteLLM-RS gateway quickstart](https://github.com/majiayu000/litellm-rs#quick-start-self-hosted-gateway) | The guide starts with a container and documents provider configuration. |
+| Track AI coding quotas and token costs | [QuotaBar first run](https://github.com/majiayu000/quotabar#download-and-first-run) · [ccstats CLI](https://github.com/majiayu000/ccstats#30-second-start) | Use QuotaBar for a desktop quota view and ccstats for session usage and cost. |
+| Inspect Claude routing consistency and local alerts | [Claude Route Watch terminal entry](https://github.com/majiayu000/claude-route-watch#terminal-menu--终端一键入口) | Terminal and desktop entry points are documented in the project. |
 
 ---
 
@@ -130,7 +129,7 @@ The stack diagram below describes how the projects relate; it is not a shared in
 | [`skill-checkup`](https://github.com/majiayu000/skill-checkup) | Audit installed `SKILL.md` folders for drift, broken references, and description gaps |
 | [`quotabar`](https://github.com/majiayu000/quotabar) | Menu bar quota window, reset pace, and subscription value monitor for Claude, Codex, Cursor & Grok |
 | [`dsh-desk`](https://github.com/majiayu000/dsh-desk) | Bundled desktop distribution for DeepSeek Harness with daily compatibility checks |
-| [`awesome-grok-bot`](https://github.com/majiayu000/awesome-grok-bot) | Curated, shelf-tiered catalog of 6,600+ live Grok Bot shares |
+| [`awesome-grok-bot`](https://github.com/majiayu000/awesome-grok-bot) | Searchable catalog of Grok Bot shares with starter tasks and field notes |
 | [`awesome-goal-prompts`](https://github.com/majiayu000/awesome-goal-prompts) | Source-backed `/goal` contracts for long-running autonomous coding sessions |
 | [`peerscope`](https://github.com/majiayu000/peerscope) · [`you-are-here`](https://github.com/majiayu000/you-are-here) · [`agent-patterns`](https://github.com/majiayu000/agent-patterns) · [`patch-tournament`](https://github.com/majiayu000/patch-tournament) · [`shipwise`](https://github.com/majiayu000/shipwise) | Focused skills for competitive teardowns, overnight handoff maps, patch grading, and open-source launches |
 
